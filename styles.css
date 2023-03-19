@@ -1,0 +1,24 @@
+body {
+    background-color:#11111b;
+    text-align: center;
+    color: #cdd6f4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #a6adc8;
+}
+.container {
+  margin: 0 auto;
+  text-align: left;
+  color: #11111b;
+}
+.quicklinks{
+  display: inline-block;
+  max-width: 100%;
+  border-radius: 10px;
+  background-color: #a6adc8;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: left;
+  color: #11111b !important;
+}
