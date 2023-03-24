@@ -22,6 +22,16 @@ p {
   text-align: left;
   color: #11111b;
 }
+img{
+  display: block;
+	margin: 0 auto;
+}
+img:first-child {
+	top: 0;
+}
+img:last-child {
+	top: -100px; /* adjust this value to move the second image up or down */
+}
 .links{
   color: #89dceb;
 }
