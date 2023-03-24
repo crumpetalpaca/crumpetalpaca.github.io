@@ -20,5 +20,8 @@ p {
   padding: 10px;
   box-sizing: border-box;
   text-align: left;
-  color: #11111b !important;
+  color: #11111b;
+}
+.links{
+  color: #89dceb;
 }
