@@ -1,31 +1,51 @@
+<!doctype html>
 <html>
+    <head>
+        <title>Crumpet's Appartment</title>
+        <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    </head>
+    <body>
+        <div class="sidebar">
+            <a href="photography.html">Photography</a>
+            <a href="minolta.html">Minolta Scanning</a>
+            <a href="contacting.html">Contact</a>
+        </div>
+        <h1>WELCOME BIGSHOTS</h1>
+        <p>Here's is my little apparment in this city</p>
+        <p>Here You will find a couple pages containing how to contact</p>
+        <p>potography and Linux stuff.</p>
+        <h1>This is still underconstruction</h1>
+        <p>This site still very underconstruction so yeah expect some jank</p>
+        <div class="Bottom">
+        You are visitor # <span id="hitcount"></span>
+        <br>
+        Last Updated: <span id="lastupdate"></span>
+        </div>
+        <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+          // DO SOMETHING
+          var site_data = JSON.parse(this.responseText);
+          document.getElementById("hitcount").innerHTML = site_data.info.views;
+          }
+        };
+        xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=crumpetalpaca", true);
+        xhttp.send();
+        </script>
+        <script>
+        var xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+          if (this.readyState == 4 && this.status == 200) {
+            var site_data = JSON.parse(this.responseText);
 
-<head>
-  <style>
-    .myDiv {
-      border: 0px outset #b4befe;
-      background-color: #94e2d5;
-      text-align: center;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-      border-bottom-left-radius: 10px;
-      border-bottom-right-radius: 10px;
-    }
-  </style>
-  <title>Crumpet's i2p den</title>
-  <link rel="stylesheet" href="styles.css">
-</head>
+            var date_str = site_data.info.last_updated;
+            document.getElementById("lastupdate").innerHTML = date_str;
 
-<body>
-  <h1>Welcome to crumpet's den</h1>
-  <div class="myDiv">
-    <h2 style="color:black">Quick Links</h2>
-    <a style="color:black" ; href="/blog/blogindex.html" ;>|Blog|</a><a style="color:black" ; href="comic/comicindex.html">|Comic|</a><a style="color:black" ; href="doodles/doodles.html">|Doodles|</a><a style="color:black" ; href="contact.html">|Contact|</a>
-  </div>
-  <h2>About</h2>
-  <p>This is a personal blog about anything I want.</p>
-  <p>Stuff that I'll probably post on this chaos den</p>
-  <p>1. A web comic 2. A blog</p>
-</body>
-
+          }
+        };
+        xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=crumpetalpaca", true);
+        xhttp.send();
+      </script>
+    </body>
 </html>
