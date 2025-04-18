@@ -1,51 +1,54 @@
-<!doctype html>
-<html>
-    <head>
-        <title>Crumpet's Appartment</title>
-        <link href="/style.css" rel="stylesheet" type="text/css" media="all">
-    </head>
-    <body>
-        <div class="sidebar">
-            <a href="photography.html">Photography</a>
-            <a href="minolta.html">Minolta Scanning</a>
-            <a href="contacting.html">Contact</a>
-        </div>
-        <h1>WELCOME BIGSHOTS</h1>
-        <p>Here's is my little apparment in this city</p>
-        <p>Here You will find a couple pages containing how to contact</p>
-        <p>potography and Linux stuff.</p>
-        <h1>This is still underconstruction</h1>
-        <p>This site still very underconstruction so yeah expect some jank</p>
-        <div class="Bottom">
-        You are visitor # <span id="hitcount"></span>
-        <br>
-        Last Updated: <span id="lastupdate"></span>
-        </div>
-        <script>
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-          // DO SOMETHING
-          var site_data = JSON.parse(this.responseText);
-          document.getElementById("hitcount").innerHTML = site_data.info.views;
-          }
-        };
-        xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=crumpetalpaca", true);
-        xhttp.send();
-        </script>
-        <script>
-        var xhttp = new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            var site_data = JSON.parse(this.responseText);
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta name="generator" content="Hugo 0.136.5">
+	<title>crumpetsite</title>
+	<link rel="canonical" href="https://crumpetalpaca.neocities.org/">
+	<link rel='alternate' type='application/rss+xml' title="crumpetsite RSS" href='/index.xml'>
+	<link rel='stylesheet' type='text/css' href='/style.css'>
+	<link rel="icon" href="/favicon.ico">
+	<meta name="description" content="crumpet&rsquo;s little nook
 
-            var date_str = site_data.info.last_updated;
-            document.getElementById("lastupdate").innerHTML = date_str;
+Learning webdev with hugo :3
+Currently learning toki pona and hoping I can devote a section to toki pona on my site
+The site is currently heavily based on lugo but my plan is to personalise the theme to a point i like it so expect a bunch of realoads &#43; do a shift&#43;F5 if something looks odd :3
+">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="robots" content="index, follow">
+	<meta http-equiv="Refresh" content="0; url='https://crumpetalpaca.xyz'" />
+	<meta charset="utf-8">
+</head>
+<body>
+<main>
+<header><h1 id="tag_Crumpet Site">Crumpet Site</h1></header>
+<article>
+<h2 id="crumpets-little-nook">crumpet&rsquo;s little nook</h2>
+<ul>
+<li>Learning webdev with hugo :3</li>
+<li>Currently learning toki pona and hoping I can devote a section to toki pona on my site
+The site is currently heavily based on <a href="//github.com/LukeSmithxyz/lugo">lugo</a> but my plan is to personalise the theme to a point i like it so expect a bunch of realoads + do a shift+F5 if something looks odd :3</li>
+</ul>
 
-          }
-        };
-        xhttp.open("GET", "https://weirdscifi.ratiosemper.com/neocities.php?sitename=crumpetalpaca", true);
-        xhttp.send();
-      </script>
-    </body>
+<ul>
+<li><time datetime="2024-10-30T12:53:23Z">2024 Oct 30</time> &ndash; <a href="/tokipona/">A tokipona test</a>
+	
+	</li>
+<li><time datetime="2024-10-28T16:27:37Z">2024 Oct 28</time> &ndash; <a href="/photography/">Photographies</a>
+	
+	</li>
+<li><time datetime="2024-10-28T12:57:21Z">2024 Oct 28</time> &ndash; <a href="/contact/">Contact</a>
+	
+	</li>
+</ul>
+
+</article>
+</main>
+
+<footer>
+    <a href="https://crumpetalpaca.neocities.org/">https://crumpetalpaca.neocities.org/</a>
+	<br>
+	<a href="//lucida.to"><img src="/freemusicnow.png" alt="a button for lucida.to"></a> <a href="//adilene.net"><img src="/virtualdiva.gif"></a><a href="//angelwood.xyz"><img src="/angelwood.png" alt="angelwood :33 <3"></a><br><br><a href="/index.xml"><img src="/rss.svg" style="max-height:1.5em" alt="RSS Feed" title="Subscribe via RSS for updates."></a>
+</footer>
+
+</body>
 </html>
