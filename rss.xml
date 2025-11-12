@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title></title>
+      <link>https://crumpetalpaca.xyz</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://crumpetalpaca.xyz/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 04 Aug 2025 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Migrating to git.gay</title>
+          <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/git-gay/</link>
+          <guid>https://crumpetalpaca.xyz/blog/git-gay/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/git-gay/">&lt;p&gt;A few weeks ago I realised that my funds in my linode account were running out and I didn&#x27;t really wan to continue paying for it so I decided to move to a static site provider.
+After doing zero research and just going to the first thing that popped in my head I dedcided to move to git.gay, since I wanted to try something new :3.&lt;&#x2F;p&gt;
+&lt;p&gt;I also rememebered that there was a section for automatically deploying to &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&#x2F;documentation&#x2F;deployment&#x2F;codeberg-pages&#x2F;&quot;&gt;codeberg pages&lt;&#x2F;a&gt; automatically with &lt;a href=&quot;https:&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;, which allows you to push to a repo and have your site automatically built and pushed to the pages branch so it&#x27;s automatically hosted.&lt;&#x2F;p&gt;
+&lt;p&gt;For some reason I am either really stupid, can&#x27;t read or the documentation is outdated (tbh probably a mixture of all 3), but the .woodpecker.yml just didn&#x27;t work so I just learn&#x27;t how to use the build system for forgejo and made my &lt;a href=&quot;https:&#x2F;&#x2F;git.gay&#x2F;crumpet&#x2F;sitesource&#x2F;src&#x2F;branch&#x2F;main&#x2F;.forgejo&#x2F;workflows&#x2F;site.yaml&quot;&gt;own&lt;&#x2F;a&gt;, which just pushes to a repository called pages after building your site using Zola running in an Alpine linux container.&lt;&#x2F;p&gt;
+&lt;p&gt;I&#x27;m also migrated some of my repos that where on sourcehut to &lt;a href=&quot;https:&#x2F;&#x2F;git.gay&#x2F;crumpet&quot;&gt;git.gay&lt;&#x2F;a&gt; so everything is in one neat place.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Site rewrite</title>
+          <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/zola/</link>
+          <guid>https://crumpetalpaca.xyz/blog/zola/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/zola/">&lt;p&gt;After an afternoon of work I have completely migrated to a ssg called &lt;a href=&quot;&#x2F;&#x2F;www.getzola.org&quot;&gt;Zola&lt;&#x2F;a&gt;!&lt;&#x2F;p&gt;
+&lt;p&gt;I mainly did this since I never actually learnt how to use hugo and wanted to have some more controll on how my pages were generated ;3.&lt;&#x2F;p&gt;
+&lt;p&gt;I also plan to add more sections to my site soon^tm and with zola it seemed a lot easier to do that!
+Thankfully it isn&#x27;t too hard migrating content from hugo to zola so the hardest part was really just getting my head around how templates worked (since I just modified the css for the lukesmith hugo theme for my last site!).&lt;&#x2F;p&gt;
+&lt;p&gt;Since I&#x27;m on holiday right now I have the time to set up my super secret page this week :3, so stay tuned!&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>The Kiev 30</title>
+          <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/photo/thekiev30/</link>
+          <guid>https://crumpetalpaca.xyz/photo/thekiev30/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/photo/thekiev30/">&lt;h2 id=&quot;the-second-love-of-my-life&quot;&gt;The second love of my life&lt;&#x2F;h2&gt;
+&lt;p&gt;I got the Kiev 30 for Christmas last year and it was love at first sight.&lt;&#x2F;p&gt;
+&lt;p&gt;Me and father dearest got into &lt;em&gt;(and in his case back into)&lt;&#x2F;em&gt; 16mm photography with a Minolta-16 P and he decided to gift me an hold Kiev 30 in pretty much mint condition.&lt;&#x2F;p&gt;
+&lt;img id=&quot;inline&quot; src=&amp;#x2F;photography&amp;#x2F;kiev30&amp;#x2F;Kiev30.jpg alt=&quot;The Kiev 30&quot; title=&quot;The camera herself&quot;&gt;
+&lt;p&gt;The Kiev 30 is a pretty blatant copy of the original Minolta-16 although it has
+a single feature wich blows the Minolta-16 &lt;strong&gt;OUT OF THE WATER&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img id=&quot;inline&quot; src=&amp;#x2F;photography&amp;#x2F;kiev30&amp;#x2F;Back-open.jpg alt=&quot;The Kiev camera from the back, open with an anolog light meter (Just a guestimator)&quot; title=&quot;The meter is really just a sugestion :3&quot;&gt;
+
+&lt;img id=&quot;inline&quot; src=&amp;#x2F;photography&amp;#x2F;kiev30&amp;#x2F;top-open.jpg alt=&quot;The Kiev camera from the top with the shutter button and the focus selector in view&quot; title=&quot;&quot;&gt;
+
+&lt;em&gt;Manual Focus&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Althought this seems quite well ... the baisic feature which is taken for granted on almost every camera most of the sub-miniature cameras that Minolta produced do not have a manual focus (with the exception of the Minolta MG) whith most of the cameras having a fixed focus, and the original Minolta-16 not even focusing to infininity and requiring an expesive and now rare lense to be usable for lanscape photograpy.!&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img id=&quot;inline&quot; src=&amp;#x2F;photography&amp;#x2F;kiev30&amp;#x2F;front-closed.jpg alt=&quot;The Kiev camera from the front&quot; title=&quot;&quot;&gt;
+
+&lt;img id=&quot;inline&quot; src=&amp;#x2F;photography&amp;#x2F;kiev30&amp;#x2F;front-open.jpg alt=&quot;The Kiev camera from the front with the body extended showing the shutter with a red dot ready to take a photo&quot; title=&quot;&quot;&gt;
+
+One of my favorite parts of the camera is the view finder as it quite litterall
+is just a piece of glass with no magnification just kinda placed at the front of the camera :3, so it just kinda serves mors of an asthetic purpose
+&lt;img id=&quot;inline&quot; src=&amp;#x2F;photography&amp;#x2F;kiev30&amp;#x2F;junome.jpg alt=&quot;A junome being viwed through a view finder&quot; title=&quot;She&amp;#x27;s Very silly ik&quot;&gt;
+&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>junomes</title>
+          <pubDate>Tue, 22 Apr 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/20250422/</link>
+          <guid>https://crumpetalpaca.xyz/blog/20250422/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/20250422/">&lt;p&gt;Some of my &lt;a href=&quot;&#x2F;drawing.jpg&quot;&gt;drawings&lt;&#x2F;a&gt; which I digitised :3&lt;&#x2F;p&gt;
+&lt;img title=&quot;a silly creatura&quot; alt=&quot;a persont with a large hed with glasses with a really small body with a question mark&quot; src=&quot;&#x2F;sketches&#x2F;jringo.png&quot;&gt;
+&lt;img title=&quot;Very much to scale&quot; alt=&quot;A small person stading on a stool holding a blahaj&quot; src=&quot;&#x2F;sketches&#x2F;pakaj.png&quot;&gt;
+&lt;img title=&quot;:3&quot; alt=&quot;A small person stading on a stool holding a blahaj&quot; src=&quot;&#x2F;sketches&#x2F;sexyjuno.png&quot;&gt;
+</description>
+      </item>
+      <item>
+          <title>New CSS &lt;333</title>
+          <pubDate>Mon, 21 Apr 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/stylept1/</link>
+          <guid>https://crumpetalpaca.xyz/blog/stylept1/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/stylept1/">&lt;p&gt;After having this site up for a while and I&#x27;ve gotten somewhat bored of just having a plain background, so decided to write (and learn) some css so I could have my content in a div and my photography as the background &amp;gt;:3. Hopefully inspiration strikes me again so I can further improve it &amp;gt;:3333333333.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Email</title>
+          <pubDate>Mon, 17 Feb 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/email/</link>
+          <guid>https://crumpetalpaca.xyz/blog/email/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/email/">&lt;h1 id=&quot;new-email-address&quot;&gt;NEW EMAIL ADDRESS&lt;&#x2F;h1&gt;
+&lt;p&gt;After convincing my friend to add me to her email plan I have my own email domain :333.
+The email host is called &lt;a href=&quot;https:&#x2F;&#x2F;migadu.com&#x2F;&quot;&gt;migadu&lt;&#x2F;a&gt; and it&#x27;s the most wonderful thing I have ever had to interact with.
+The setup with clients like thunderbird are a breeze and the setup with the domain name took less than 5 minutes.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>KemtmereQT400</title>
+          <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/photo/kemtmereqt400/</link>
+          <guid>https://crumpetalpaca.xyz/photo/kemtmereqt400/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/photo/kemtmereqt400/">&lt;p&gt;Photos were taken on a Minolta QT with Kentmere 400 film :3
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0004.jpg&quot; alt=&quot;Bare trees with leaves on the ground with a puddle in the background&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0005.jpg&quot; alt=&quot;A field with trees in the background&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0008.jpg&quot; alt=&quot;Dark trees close together with leaves on the floor&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0009.jpg&quot; alt=&quot;A damp feild with leafless trees&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0010.jpg&quot; alt=&quot;A bench in the foreground facing&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0012.jpg&quot; alt=&quot;A bridge facing away with the camera with a small river flanked by two trees&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0014.jpg&quot; alt=&quot;Tall trees planted in a grid&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0015.jpg&quot; alt=&quot;A wooden path surronded by an arch of tree&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0016.jpg&quot; alt=&quot;A river with buthes growing at the banks and trees growing inside the river&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0017.jpg&quot; alt=&quot;A tree on the rightside of the image with a path on the left&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0027.jpg&quot; alt=&quot;One of the statues near blackwells I forgot the name of them&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0032.jpg&quot; alt=&quot;A window from an old building in Aylesbury&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;Kemtmere400QT&#x2F;raw0033.jpg&quot; alt=&quot;Cars driving on taken from the bridge on Friar&amp;#39;s Square&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;If you have any better descriptions please contact me since i know that they&#x27;re pretty bad&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Newyears</title>
+          <pubDate>Wed, 01 Jan 2025 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/newyears/</link>
+          <guid>https://crumpetalpaca.xyz/blog/newyears/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/newyears/">&lt;p&gt;It&#x27;s new years silly
+here&#x27;s to a better year :3&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>The Citroën Ami</title>
+          <pubDate>Mon, 16 Dec 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/citroen/</link>
+          <guid>https://crumpetalpaca.xyz/blog/citroen/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/citroen/">&lt;h1 id=&quot;disppintingly-close-to-greateness&quot;&gt;Disppintingly close to greateness&lt;&#x2F;h1&gt;
+&lt;p&gt;A while back now I got to test drive a Citroë Ami with my dad and I have some opinions on the experience.&lt;&#x2F;p&gt;
+&lt;p&gt;Firstly it&#x27;s &lt;strong&gt;CUTE&lt;&#x2F;strong&gt; in the looks the department with it being built like a hamster. The interior is laking in most modern luxuries such as a radio or speaker system, with the expectation of bringing your own entertainment. The Drive Reverse Parked and Neutral buttons in our model being placed on the left hand side of the driver seat making it a bit uncomfortable to change gear. All of this in my opinion would be great for a silly little two seater since it would be lovely for someone and a partner to zip around a city... If it was fast enough. The Ami only goes at a snails pace of 27 mph (45 km&#x2F;h), this in the uk is UNACCEPTABLE as most residential areas are 30 and only rencently some &lt;em&gt;small&lt;&#x2F;em&gt; towns have moved to 20 mph. In my opinion is my main gripe with the car as you are a moving road hazard blocking road traffic if you even attempt to leave your town &#x2F; city. The second issue is the price of the Ami since for the same price of the ami, you can buy a hybrid Fiat 500 which is a better car in every aspect compared to the ami.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s quite sad that the ami is just slow since if it went even 35 or even 40 mph it could be useable on country roads.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Going vegeterian for a month</title>
+          <pubDate>Thu, 07 Nov 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/vegeterian/</link>
+          <guid>https://crumpetalpaca.xyz/blog/vegeterian/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/vegeterian/">&lt;p&gt;During October I dedcided to have a little fun and change up my diet to see how life was as a vegeterian.
+I&#x27;d say im normaly not much of a meat eater when it comes to my normal diet, but I will admit it is quite nice every once and a while, therfore the change to vegeterianism didn&#x27;t go too badly.
+The onething that did get me was the amount of quite unasuming things that actually have animal products e.g., gummy sweets such as Liquorice Allsorts (which I was quite disappointed that I couldn&#x27;t eat :( )
+The thing I found most surprising was that I started thinking more actively about what I was eating compared to before I started the &quot;chalenge&quot; (To be honest it was the best thing).&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>A tokipona test</title>
+          <pubDate>Wed, 30 Oct 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/blog/tokipona/</link>
+          <guid>https://crumpetalpaca.xyz/blog/tokipona/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/blog/tokipona/">&lt;p&gt;󱥬󱦖󱥔󱤧󱥔󱤼&lt;&#x2F;p&gt;
+&lt;p&gt;󱤴󱤑󱦐󱤓󱥱󱤾󱥅󱦑󱦛
+󱤑󱦐󱤔󱥅󱥴󱤎󱦑 󱤧󱤑󱥔󱤴&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Greece</title>
+          <pubDate>Mon, 28 Oct 2024 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://crumpetalpaca.xyz/photo/greece/</link>
+          <guid>https://crumpetalpaca.xyz/photo/greece/</guid>
+          <description xml:base="https://crumpetalpaca.xyz/photo/greece/">&lt;p&gt;Some photographs frome when I went to greece with a film camera
+&lt;img src=&quot;&#x2F;photography&#x2F;tomokon.jpg&quot; alt=&quot;A photo of a white windmill&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;alleyway.jpg&quot; alt=&quot;A very pretty dense alleyway of white houses&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;church.jpg&quot; alt=&quot;A pretty church&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;coast.jpg&quot; alt=&quot;A hilltop village facing the sea&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;holeinthewall.jpg&quot; alt=&quot;A pretty abrtract wall&quot; &#x2F;&gt;
+&lt;img src=&quot;&#x2F;photography&#x2F;sunset.jpg&quot; alt=&quot;A sunset :3&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
